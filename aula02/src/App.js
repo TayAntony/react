@@ -1,15 +1,13 @@
 import './App.css';
+import Login from './pages/Login';
 
-
-
-const leitorNumerosLista = () => {
-  const botoes = [1, 2, 3, 4]
-
+const App = () => {
   return (
   <>
-    {botoes.map(botao => <button>{botao}</button>)}
+    <Login/>
+
   </>
   );
 }
 
-export default leitorNumerosLista;
+export default App;
