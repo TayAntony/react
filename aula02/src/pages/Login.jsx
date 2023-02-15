@@ -5,7 +5,6 @@ const Login = () => {
     const [usuario, setUsuario] = useState('')
     const [senha, setSenha] = useState('')
     const [exibir, setExibir] = useState(true)
-    const texto = "Miau tay, seja bem vinda"
 
     
     const logar = () =>{
@@ -24,6 +23,7 @@ const Login = () => {
 
     return ( 
         <>
+
         {exibir ? 
         <>
         <div className='flex flex-col'>
